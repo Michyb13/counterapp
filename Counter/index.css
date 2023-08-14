@@ -1,0 +1,71 @@
+body{
+    background-image: url(Background.jpg);
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightcyan;
+    text-shadow: 0px 0px 7px black;
+
+
+}
+
+h1{
+    margin: 10px 0;
+}
+
+h2{
+    font-size: 50px;
+    margin: 0 0 20px 0;
+
+}
+h4{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button{
+    padding: 10px 0;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    width: 200px;
+    margin-bottom: 10px;
+    transition: all 0.4s ease-in;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+
+}
+#increment-btn{
+    background: red;
+}
+
+#save-btn{
+    background: blue;
+}
+div{
+    max-width: 85%;
+    background: black;
+    margin: 30px auto;
+    border: 3px solid white;
+    padding: 40px 0;
+    border-radius: 5px; 
+}
+
+
+
+
+#increment-btn:hover{
+    color: black;
+    text-shadow: 0px 0px 5px white;
+    transform: translateY(-5px);
+    background: white;
+}
+
+#save-btn:hover{
+    color: black;
+    text-shadow: 0px 0px 5px white;
+    transform: translateY(5px);
+    background: white;
+}
